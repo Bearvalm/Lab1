@@ -79,7 +79,7 @@ public class TestMatrixUtil {
      */
     @Test(expected = InvalidMatrixException.class)
     public void testArrayIsNotMatrix() {
-        new MatrixUtil().sort(new int[][]{{2, 4}, {}, {1}}, 3);
+        anew MatrixUtil().sort(new int[][]{{2, 4}, {}, {1}}, 3);
     }
 
 
