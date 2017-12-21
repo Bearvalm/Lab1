@@ -36,16 +36,17 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>cobertura-maven-plugin</artifactId>
 				<version>2.7</version>
-				
-				<check>
-					<branchRate>85</branchRate>
-					<lineRate>85</lineRate>
-					<haltOnFailure>true</haltOnFailure>
-					<totalBranchRate>85</totalBranchRate>
-					<totalLineRate>85</totalLineRate>
-					<packageLineRate>85</packageLineRate>
-					<packageBranchRate>85</packageBranchRate>
-				</check>
+				<configuration>
+					<check>
+						<branchRate>85</branchRate>
+						<lineRate>85</lineRate>
+						<haltOnFailure>true</haltOnFailure>
+						<totalBranchRate>85</totalBranchRate>
+						<totalLineRate>85</totalLineRate>
+						<packageLineRate>85</packageLineRate>
+						<packageBranchRate>85</packageBranchRate>
+					</check>
+				</configuration>
 			</plugin>
 
 			<plugin>
