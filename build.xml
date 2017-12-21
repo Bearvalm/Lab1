@@ -38,11 +38,11 @@
 				<version>2.7</version>
 				<configuration>
 					<check>
-						<branchRate>85</branchRate>
-						<lineRate>85</lineRate>
+						<branchRate>185</branchRate>
+						<lineRate>815</lineRate>
 						<haltOnFailure>true</haltOnFailure>
 						<totalBranchRate>85</totalBranchRate>
-						<totalLineRate>85</totalLineRate>
+						<totalLineRate>185</totalLineRate>
 						<packageLineRate>85</packageLineRate>
 						<packageBranchRate>85</packageBranchRate>
 					</check>
