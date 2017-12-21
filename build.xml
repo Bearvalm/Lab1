@@ -59,7 +59,7 @@
 				</executions>
 
 				<goals>
-					<goal>check</goal>
+					<goal>validate</goal>
 				</goals>
 
 			</plugin>
